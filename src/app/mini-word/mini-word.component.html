@@ -3,11 +3,11 @@
     <p [ngStyle]="{'color': color, 'font-size': size, 'font-family': font}">Arij Kouki</p>
     <div class="mb-3">
       <label class="form-label">Color:</label>
-      <input type="text" class="form-control" [(ngModel)]="color">
+      <input type="text" class="form-control" [(ngModel)]="color" appRainbow>
     </div>
     <div class="mb-3">
       <label class="form-label">Size:</label>
-      <input #sizeInput type="number" class="form-control" (change)="changeSize(sizeInput)" >
+      <input #sizeInput type="number" class="form-control" (change)="changeSize(sizeInput)" appRainbow>
     </div>
     <div class="mb-3">
       <label class="form-label">Font:</label>

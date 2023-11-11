@@ -5,11 +5,13 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { MiniWordComponent } from './mini-word/mini-word.component';
 import {FormsModule} from "@angular/forms";
+import { RainbowDirective } from './rainbow.directive';
 
 @NgModule({
   declarations: [
     AppComponent,
-    MiniWordComponent
+    MiniWordComponent,
+    RainbowDirective
   ],
   imports: [
     BrowserModule,
